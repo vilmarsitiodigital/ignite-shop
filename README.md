@@ -69,6 +69,9 @@ $ git clone https://github.com/vilmarsitiodigital/ignite-shop.git && cd ignite-s
 # Install the dependencies
 $ npm i
 
+# Make a copy of '.env.local.example' to '.env.local' and insert info's strip variables
+$ cp .env.local.example .env.local
+
 # To finish, run
 $ npm run dev
 
